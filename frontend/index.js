@@ -8,7 +8,7 @@ function myfunction(){
     if(!input.value){
         console.log("ooooo");
     }else{
-        fetch('http://localhost:3000/',{
+        fetch('https://qr-code-generator-cxim.vercel.app/',{
             method:'POST',
             headers: {
                 'Content-Type': 'application/json',
