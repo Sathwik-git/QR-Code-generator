@@ -1,4 +1,4 @@
-const express = require("express")
+const express = require('express')
 const qrcode = require('qrcode')
 const cors = require('cors')
 const app = express()
